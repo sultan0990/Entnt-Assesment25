@@ -1,74 +1,77 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Calendar Communication Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive calendar-based communication tracker for businesses to efficiently manage relationships, log communications, and track follow-ups with companies.
 
-## Available Scripts
+## 🚀 Project Overview
 
-In the project directory, you can run:
+The **Calendar Communication Tracker** is a web-based application designed to centralize communication logs, scheduled follow-ups, and reporting to optimize business communication. It helps businesses track and manage interactions with companies through a dynamic calendar view and real-time activity feed. The app is built using **React** on the frontend and **Node.js** on the backend, offering seamless interaction and smooth user experience.
 
-### `npm start`
+## 🛠️ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Admin Module**
+- **Company Management:**
+  - Add, edit, or delete company details, including:
+    - Name, Location
+    - LinkedIn Profile
+    - Contact Information (Email, Phone)
+    - Communication Periodicity
+    - Configure communication methods with flags to enforce mandatory steps.
+- **Communication Method Management:**
+  - Define different communication methods (e.g., Email, Phone, Meeting) and set sequences for each method.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. **User Module**
+- **Dashboard:**
+  - A real-time, dynamic grid displaying:
+    - Companies
+    - Recent communications
+    - Upcoming communication tasks
+- **Communication Logging:**
+  - Record communication activities, add notes, and set statuses like overdue or completed.
+- **Notifications:**
+  - Get alerts for upcoming or overdue communication tasks.
+- **Calendar View:**
+  - Calendar-style visualization for past and future communications, allowing users to track and manage tasks.
 
-### `npm test`
+### 3. **Reporting & Analytics (Optional)**
+- **Communication Frequency Report:**
+  - Visualize the frequency of communication methods (e.g., how often emails or calls are made).
+- **Engagement Effectiveness:**
+  - Analyze communication success, track responses, and view effectiveness over time.
+- **Overdue Communication Trends:**
+  - Track trends of overdue communications, visualized in trendlines or heatmaps.
+- **Real-Time Activity Feed:**
+  - View live communication activities with sortable filters by user, date, or company.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧰 Technologies Used
 
-### `npm run build`
+### Frontend:
+- **React**, **React Hooks**, **JSX**, **CSS Modules**
+- **React Big Calendar** for calendar view
+- **Material UI / Tailwind CSS** for UI styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend:
+- **Node.js**, **Express**, **MongoDB**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Authentication:
+- **JWT (JSON Web Tokens)** for secure user authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### State Management:
+- **Context API** (for managing state across components)
 
-### `npm run eject`
+### Testing:
+- **Jest** (optional for unit tests)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Version Control:
+- **Git** with **GitHub** for repository management
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deployment:
+- **Frontend:** Vercel 
+- **Backend:** Heroku, AWS, DigitalOcean (for deploying backend)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the Repository
+First, clone the repository to your local machine:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Entnt-Assesment25
->>>>>>> 42c7fa911d76e56182b7a1c2c54e208e285f107d
+```bash
+git clone https://github.com/sultan0990/Entnt-Assesment25.git
