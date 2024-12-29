@@ -1,0 +1,183 @@
+.admin-module {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      line-height: 1.6;
+      background-color: #f4f7f6;
+      color: #333;
+    }
+  
+    .admin-module {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .admin-module h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-weight: 600;
+      border-bottom: 3px solid #39db34;
+      padding-bottom: 10px;
+    }
+  
+    /* Sections */
+    .company-management,
+    .communication-method-management {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .company-management h2,
+    .communication-method-management h2 {
+      color: #0f790b;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    input,
+    textarea,
+    button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d1d8e0;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+  
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #0f790b;
+      box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    }
+  
+    button {
+      background-color: #0f790b;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+  
+    button:hover {
+      background-color: #29bd24;
+    }
+  
+    button[type="button"] {
+      background-color: rgb(61, 61, 186);
+    }
+  
+    button[type="button"]:hover {
+      background-color: rgb(45, 45, 129);
+    }
+  
+    .email-management,
+    .phone-management {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .email-management h4,
+    .phone-management h4 {
+      color: #34495e;
+      margin-bottom: 10px;
+    }
+  
+    .company-list,
+    .communication-methods-list {
+      margin-top: 20px;
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      padding: 15px;
+    }
+  
+    .company-list h3,
+    .communication-methods-list h3 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+  
+    .company-item,
+    .method-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  
+    .company-actions,
+    .method-actions {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .company-actions button,
+    .method-actions button {
+      padding: 5px 10px;
+      font-size: 0.9em;
+    }
+  
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .admin-module {
+        padding: 10px;
+      }
+  
+      .company-item,
+      .method-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+  
+      .company-actions,
+      .method-actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      form {
+        gap: 10px;
+      }
+  
+      input,
+      textarea,
+      button {
+        padding: 8px;
+      }
+  
+      .admin-module h1 {
+        font-size: 1.5em;
+      }
+    }
+  }

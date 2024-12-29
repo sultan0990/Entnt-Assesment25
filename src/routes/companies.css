@@ -1,0 +1,320 @@
+.company-list-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+  
+    .company-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+  
+    .company-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+  
+    .company-info {
+      display: flex;
+      gap: 20px;
+    }
+  
+    .location-info {
+      flex: 1;
+    }
+  
+    .contact-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .contact-section {
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      padding: 10px;
+    }
+  
+    .contact-section h4 {
+      margin-bottom: 10px;
+      color: #333;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 5px;
+    }
+  
+    .contact-section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .contact-section li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+  
+    .email-icon,
+    .phone-icon {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+  
+    .communication-methods {
+      margin-top: 20px;
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      padding: 15px;
+    }
+  
+    .method-item {
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .method-details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .method-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .method-name {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+  
+    .method-type {
+      background-color: #e0e0e0;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8em;
+    }
+  
+    .method-description {
+      color: #666;
+    }
+  
+    .method-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .company-actions,
+    .method-actions {
+      display: flex;
+      gap: 10px;
+    }
+  
+    button {
+      padding: 8px 12px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    button:hover {
+      background-color: #45a049;
+    }
+  
+    button.delete {
+      background-color: #f44336;
+    }
+  
+    button.delete:hover {
+      background-color: #da190b;
+    }
+  
+    .admin-module {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .admin-module h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-weight: 600;
+      border-bottom: 3px solid #0f790b;
+      padding-bottom: 10px;
+    }
+  
+    /* Sections */
+    .company-management,
+    .communication-method-management {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .company-management h2,
+    .communication-method-management h2 {
+      color: #0f790b;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+  
+    /* Form Styles */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    input,
+    textarea,
+    button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d1d8e0;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+  
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #0f790b;
+      box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    }
+  
+    button {
+      background-color: #0f790b;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+  
+    button:hover {
+      background-color: #0f790b;
+    }
+  
+    button[type="button"] {
+      background-color: #5784ef;
+    }
+  
+    button[type="button"]:hover {
+      background-color: #3a4e7c;
+    }
+  
+    /* Email and Phone Management */
+    .email-management,
+    .phone-management {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .email-management h4,
+    .phone-management h4 {
+      color: #0f790b;
+      margin-bottom: 10px;
+    }
+  
+    /* List Styles */
+    .company-list,
+    .communication-methods-list {
+      margin-top: 20px;
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      padding: 15px;
+    }
+  
+    .company-list h3,
+    .communication-methods-list h3 {
+      color: #0f790b;
+      margin-bottom: 15px;
+    }
+  
+    .company-item,
+    .method-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  
+    .company-actions,
+    .method-actions {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .company-actions button,
+    .method-actions button {
+      padding: 5px 10px;
+      font-size: 0.9em;
+    }
+  
+    /* Checkbox Styling */
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      .admin-module {
+        padding: 10px;
+      }
+  
+      .company-item,
+      .method-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+  
+      .company-actions,
+      .method-actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      form {
+        gap: 10px;
+      }
+  
+      input,
+      textarea,
+      button {
+        padding: 8px;
+      }
+  
+      .admin-module h1 {
+        font-size: 1.5em;
+      }
+    }
+  }
