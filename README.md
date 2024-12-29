@@ -68,10 +68,60 @@ The **Calendar Communication Tracker** is a web-based application designed to ce
 - **Frontend:** Vercel 
 - **Backend:** Heroku, AWS, DigitalOcean (for deploying backend)
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup and Installation
 
-### 1. Clone the Repository
-First, clone the repository to your local machine:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sultan0990/Entnt-Assesment25.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Entnt-Assesment25
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Run the development server:
+   ```
+   npm start
+   ```
+5. Open http://localhost:3000 in your browser to view the app.
 
-```bash
-git clone https://github.com/sultan0990/Entnt-Assesment25.git
+---
+
+## 📂 Folder Structure
+```
+src/
+│
+├── components/
+│   ├── notification.js
+│   ├── notification.css
+│   └── ...
+├── routes/
+│   ├── adminModule.js
+│   ├── userDashboard.js
+│   └── ...
+├── context/
+│   └── data.js
+├── App.js
+├── index.js
+└── ...
+```
+
+---
+
+## 📝 Future Enhancements  
+
+- **Advanced Search Functionality:** Implement search filters to allow users to search for companies and communication logs based on different criteria.  
+- **Role-Based Permissions:** Expand user roles with different levels of permissions (Admin, Manager, User) for better access control.  
+- **Mobile App:** Develop a mobile version of the app to make communication tracking accessible on the go.  
+- **Analytics Dashboard:** Enhance reporting with a more detailed analytics dashboard that shows insights on communication effectiveness and trends.  
+- **Cloud Integration:** Integrate with cloud storage services for document storage and sharing between users.
+
+---
+
+
+
+
+## Thank you 🤝
